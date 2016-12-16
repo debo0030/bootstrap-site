@@ -1,0 +1,80 @@
+/*
+pale green: #B3E080
+Dark Green: #246E35
+yellow: #D4C75A
+blue: #3A667B
+*/
+@import url('https://fonts.googleapis.com/css?family=Gilda+Display|Roboto');
+
+#bootstrap-override {
+    /* override Bootstrap's style here */
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Gilda Display", "Georgia", serif;
+}
+
+p {
+  font-family: "Roboto", "Helvetica", sans-serif;
+  font-size: 1em;
+}
+
+.navbar-default {
+  background-color: #246E35;
+
+}
+
+.navbar-default a {
+  color: #C1E087;
+}
+
+.navbar-default a:hover {
+  color: #D4C75A;
+}
+
+.navbar-default .active a {
+  color: white;
+  font-weight: bold;
+}
+
+.header-img {
+  max-width: 100%;
+}
+
+.background {
+  background-color: green;
+}
+
+.card {
+  min-height: 545px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  padding: 8px 0;
+}
+
+.iconic {
+  color: #C1E087;
+}
+
+.iconic:hover {
+  color: #D4C75A;
+}
+
+.btn {
+  background-color: #3A667B;
+}
+
+.btn:hover {
+  background-color: #D4C75A;
+}
+
+.copyright {
+  color: #C1E087;
+}
+
+form {
+  padding: 8px 0;
+}

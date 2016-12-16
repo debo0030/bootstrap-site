@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact Page</title>
+        <link rel="stylesheet" href="./libs/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./libs/iconic/iconic-everything-1.9.0/font/css/iconic-glyphs-legacy.css">
+        <!--[if lt IE 9]>
+            <link rel="stylesheet" href="./libs/iconic/iconic-everything-1.9.0/font/css/iconic-glyphs-legacy.css">
+        <![endif]-->
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+    <body>
+      <div id="bootstrap-override">
+          <header>
+            <!-- this is the place for navbar and masthead -->
+            <div class="container">
+                  <nav class="navbar navbar-default bg-inverse">
+                      <button class="navbar-toggler hidden-sm-up"
+                              data-toggle="collapse"
+                              data-target="#collapse-navbar">&#9776;</button>
+                      <div class="collapse navbar-toggleable-xs" id="collapse-navbar">
+                          <ul class="nav navbar-nav">
+                              <li class="nav-item">
+                                  <a href="index.html" class="nav-link">home <span class="sr-only">(current)</span></a>
+                              </li>
+                              <li class="nav-item">
+                                  <a href="help.html" class="nav-link">things to do</a>
+                              </li>
+                              <li class="nav-item active">
+                                  <a href="contact.html" class="nav-link">contact</a>
+                              </li>
+                          </ul>
+                      </div>
+                  </nav>
+              </div>
+            <main>
+                <!-- this is the place for Google static map-image -->
+                <div class="container">
+                  <div class="col col-xs-12 col-sm-12 col-md-8 col-lg-6 col-xl-6">
+                    <img src="https://maps.googleapis.com/maps/api/staticmap?center=Ottawa,ON&zoom=13&size=600x600&maptype=roadmap&key=AIzaSyB4YkLscAR1u3IBRaizNkv73nI9w_Mb9YM" alt="Map of Ottawa, ON" class="img-fluid">
+                </div>
+              <!-- </div> -->
+              <!-- <div class="container"> -->
+                <form>
+                  <div class="col col-xs-12 col-sm-12 col-md-4 col-lg-6 col-xl-6">
+                    <div class="form-group row">
+                      <label for="text-input" class="col-form-label">Name</label>
+                          <input class="form-control" type="text" value="Full Name" id="text-input">
+                    </div>
+                    <div class="form-group row">
+                      <label for="inputEmail">Email address</label>
+                        <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group row">
+                      <label for="textarea">Message</label>
+                        <textarea class="form-control" id="textarea" rows="3"></textarea>
+                    </div>
+                    <div class="form-group row">
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                  </div>
+                </div>
+                </form>
+              </div>
+            </div>
+            </main>
+            <footer>
+                <div class="container footer">
+                    <nav class="navbar navbar-default bg-inverse">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                              <a href="#" class="iconic iconic-md" data-glyph="social-facebook" title="facebook" aria-hidden="true"></a>
+                            <li class="nav-item">
+                              <a href="#" class="iconic iconic-md" data-glyph="social-twitter" title="twitter" aria-hidden="true"></a>
+                            </li>
+                            <li class="nav-item">
+                              <a href="#" class="iconic iconic-md" data-glyph="social-linkedin" title="linkedin" aria-hidden="true"></a>
+                            </li>
+                            <li class="nav-item">
+                              <a href="#" class="iconic iconic-md" data-glyph="social-instagram" title="instagram" aria-hidden="true"></a>
+                            </li>
+                            <p class="pull-right copyright">&#169 HPF inc.</p>
+                          </ul>
+                    </nav>
+                </div>
+            </footer>
+            <script src="./libs/jquery/dist/jquery.min.js"></script>
+            <script src="./libs/bootstrap/dist/js/bootstrap.min.js"></script>
+            <script src="iconic.min.js"></script>
+        </div>
+    </body>
+</html>
